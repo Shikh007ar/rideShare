@@ -1,0 +1,244 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Ride Sharing</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+
+
+    
+    <!-- Custom styles for this template -->
+    <link href="./main.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a style="font-family: 'Zen Dots', cursive;" class="navbar-brand" href="/portal">Ride Sharing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Pricing</a>
+          </li>
+          <li style="position: absolute; right: 30px;" class="nav-item">
+            <a class="nav-link active" href="#">Shikhar Singh</a>
+          </li>
+        </ul>
+         <!-- <form class=" justify-content-end">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<div>
+    <img class="backimage" src="./images/Ridesharing.jpg" alt="backimage">
+    <div>
+        <section style="margin-top: 70px;" class="search-form">
+            <form class="form1" style="max-width: 70rem;" action="" method="GET" name="search" role="search">
+              <p class="inp-wrap cat-wrap">
+                <label style="margin-bottom: 0px;" for="categories" class="grid-20">From</label>
+                <!-- <input type="search" name="search-term" id="search-field" class="grid-75" placeholder="e.g. pizza, pet supplies" /></p> -->
+                <!-- <label for="categories" class="grid-20">to</label> -->
+                <select name="search categories" id="categories" class="grid-80">
+                  <option value="newyork" selected>Kolkata</option>
+                  <option value="agra">Agra</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="noida">Noida</option>
+                  <option value="gurugram">Gurugram</option>
+                  <option value="pune">Pune</option>
+                  <option value="lucknow">Lucknow</option>
+                </select>
+              <p class="inp-wrap cat-wrap">
+                <label style="margin-bottom: 0px;" for="categories" class="grid-20">to</label>
+                <select name="search categories" id="categories" class="grid-80">
+                    <option value="newyork" >Kolkata</option>
+                    <option value="agra">Agra</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="noida" selected>Noida</option>
+                    <option value="gurugram">Gurugram</option>
+                    <option value="pune">Pune</option>
+                    <option value="lucknow">Lucknow</option>
+                </select>
+              </p>
+              <p class="inp-wrap submit-wrap">
+                <button class="grid-100 btn1">
+                  <span class="search-icon-container"><?xml version="1.0" encoding="utf-8"?>
+                  <!-- Generated by IcoMoon.io -->
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search-icon" width="768" height="768" viewBox="0 0 768 768">
+                  <g id="icomoon-ignore">
+                  </g>
+                  <path d="M304.5 448.5c79.5 0 144-64.5 144-144s-64.5-144-144-144-144 64.5-144 144 64.5 144 144 144zM496.5 448.5l159 159-48 48-159-159v-25.5l-9-9c-36 31.5-84 49.5-135 49.5-115.5 0-208.5-91.5-208.5-207s93-208.5 208.5-208.5 207 93 207 208.5c0 51-18 99-49.5 135l9 9h25.5z"></path>
+                  </svg>
+                  </span>
+                  Submit
+                </button>
+              </p>
+            </form>
+          </section> 
+    </div>
+</div>
+  
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div style="margin-top: 30px;" class="row">
+      <div class="col-lg-4">
+        <img src="./images/IMG-20200617-WA0002.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <h4 style="font-family: 'Zen Dots', cursive;">Vannsh Nijhawan</h2>
+        <p>I recently booked innova from jaipur to jodhpur and vice versa. I was very happy with quality of service provided by rajputana cabs. On time availability of cab. Excellent quality.. Clean.. Professional drivers and excellent customer service.</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./images/IMG_20200915_162123.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <h4 style="font-family: 'Zen Dots', cursive;">Samakshi Goel</h2>
+        <p>Hi, friends I'm so glad to share my experience with Rajputana cabs and my rajasthan tour. I think my tour is incomplete without my Navratanbhai .he is so cooperative and humble. Everytime he says sir boliye na kaha Jana hai kya Karna hai he is dedicated for his profession</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./images/you.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+
+        <h4 style="font-family: 'Zen Dots', cursive;">Shikhar Chauhan</h2>
+        <p>My cab Diver was very good and soft-spoken. I'll surely take my sharing cab from this website next time also because their fare is very resonable and cab is always on time.</p>
+       
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading" style="font-family: 'Zen Dots', cursive; margin-top: 0px; font-size: 30px;";>REDUCED VEHICLE MILES TRAVELED <span class="text-muted"></span></h2>
+        <p class="lead">Vehicle miles traveled (VMT) is a travel demand
+            metric that measures the sum of the number of miles
+            traveled by each vehicle. A study by the Federal
+            Highway Administration during the 1970s energy
+            crisis found a 23% reduction in vehicle miles traveled
+            (VMT) (Pratsch, 1979). Employee-based trip
+            reduction (EBTR) and transportation demand
+            management (TDM) programs are recognized as a
+            best practice to support VMT reduction goals. </p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://www.sharedmobility.news/wp-content/uploads/2017/10/shared11.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg"   preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h4 class="featurette-heading" style="margin-top: 0px;font-family: 'Zen Dots', cursive; font-size: 30px;">REDUCED FUEL CONSUMPTION <span class="text-muted"></span></h4>
+        <p class="lead">Every year, the average passenger car and sports utility
+            vehicle consumes an estimated 550 and 915 gallons of
+            fuel, respectively. Noland et al. (2006) assert that
+            enacting policies to increase carpooling is the most
+            effective strategy to reduce energy consumption besides
+            prohibiting driving. Another study by Jacobson and King
+            (2009) estimates a potential fuel savings of 0.80 to 0.82
+            billion gallons of gasoline per year in the United States, if
+            one additional passenger was added in every 100
+            vehicles. The same study also estimates a potential
+            annual fuel savings of 7.54 to 7.74 billion gallons per
+            year in the U.S., if one additional passenger was added to every vehicle</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/af7297f6d5d2471a9c077bb957de0884.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg"   preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h4 class="featurette-heading" style="margin-top: 0px;font-family: 'Zen Dots', cursive; font-size: 30px;">COST SAVINGS FOR PUBLIC AGENCIES
+            AND EMPLOYERS <span class="text-muted"></span></h4>
+        <p class="lead">By improving infrastructure capacity and person
+            throughput, carpooling is a cost-effective strategy to
+            mitigate congestion and reduce the need for
+            additional roadway and public transit capacity. In
+            Seattle, a Commute Trip Reduction Ordinance has
+            contributed to a 11% reduction in single-occupant
+            vehicle trips (City of Seattle, 2017). Another study
+            found that casual carpooling has the potential to
+            notably reduce energy consumption for 150
+            commuters equivalent to providing an express bus
+            service implementation for the same number of
+            commuters but at a lower cost (Dorinson et al., 2009)</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://newsline.artba.org/wp-content/uploads/2016/12/I-80_Eastshore_Fwy-1080x675.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg"   preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
